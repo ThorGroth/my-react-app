@@ -1,0 +1,22 @@
+# Abhängigkeiten & Builds
+node_modules
+dist
+
+# VCS
+.git
+.gitignore
+
+# Editor/OS
+.vscode
+.DS_Store
+
+# Env/Cache/Logs
+.env
+*.local
+npm-debug.log*
+*.log
+*.cache
+
+# Docker-Dateien selbst nicht in den Kontext packen (optional)
+Dockerfile
+.dockerignore
